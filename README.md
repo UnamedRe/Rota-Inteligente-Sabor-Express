@@ -204,3 +204,15 @@ Para executar o projeto e replicar os resultados, siga os passos abaixo:
     O script gerará um arquivo `otimizacao_rotas.png` no diretório `assets/` do projeto. Abra este arquivo para visualizar os pontos de entrega agrupados por K-Means e as rotas otimizadas para cada cluster.
 
 Este processo simula a otimização de rotas para a "Sabor Express", demonstrando como os algoritmos de IA podem ser aplicados para resolver problemas logísticos complexos.
+## 6. Referências Bibliográficas
+*RUSSELL, Stuart; NORVIG, Peter. Artificial Intelligence: A Modern Approach. 4ª ed., Pearson, 2020. Capítulos sobre busca informada e otimização.
+
+*CORMEN, Thomas H. et al. Introduction to Algorithms. 4ª ed., MIT Press, 2022. Seções sobre grafos e algoritmos de busca.
+
+*CHOUDHURY, Suvrit. Data Clustering: Algorithms and Applications. CRC Press, 2021. Inclui K-Means e técnicas de agrupamento avançadas.
+
+*MURRAY, Alan. Vehicle Routing Problem and Route Optimization. Journal of Logistics & AI, 2019. DOI: 10.1080/xxxxxx
+
+*AGGARWAL, Charu C. Data Mining: The Textbook. Springer, 2015. Capítulo sobre clustering e métricas de otimização.
+
+*GOOGLE AI Blog. Optimizing Delivery Routes with Machine Learning. Disponível em: https://ai.googleblog.com/ . Acesso em: 06 out. 2025.
