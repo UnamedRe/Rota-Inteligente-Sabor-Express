@@ -1,0 +1,29 @@
+graph TD
+    A[Depósito Sabor Express] --> B(Bairro 1)
+    A --> C(Bairro 2)
+    A --> D(Bairro 3)
+    B --> E(Ponto de Entrega 1.1)
+    B --> F(Ponto de Entrega 1.2)
+    C --> G(Ponto de Entrega 2.1)
+    D --> H(Ponto de Entrega 3.1)
+    D --> I(Ponto de Entrega 3.2)
+    E -- 5km --> F
+    F -- 3km --> G
+    G -- 7km --> H
+    H -- 2km --> I
+    I -- 10km --> A
+
+    subgraph Cluster de Entregas
+        E -- 5km --> F
+        F -- 3km --> G
+    end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#ccf,stroke:#333,stroke-width:2px
+    style F fill:#ccf,stroke:#333,stroke-width:2px
+    style G fill:#ccf,stroke:#333,stroke-width:2px
+    style H fill:#ccf,stroke:#333,stroke-width:2px
+    style I fill:#ccf,stroke:#333,stroke-width:2px
